@@ -16,7 +16,7 @@
         },
         "rules": [
           {
-            "description": "brackets and equal sign",
+            "description": "brackets and equal sign and arrow",
             "manipulators": [
               {
                 "from": {
@@ -50,7 +50,7 @@
               },
               {
                 "from": {
-                  "key_code": "d",
+                  "key_code": "u",
                   "modifiers": {
                     "mandatory": ["option"]
                   }
@@ -65,7 +65,7 @@
               },
               {
                 "from": {
-                  "key_code": "f",
+                  "key_code": "o",
                   "modifiers": {
                     "mandatory": ["option"]
                   }
@@ -88,6 +88,24 @@
                 "to": [
                   {
                     "key_code": "equal_sign"
+                  }
+                ],
+                "type": "basic"
+              },
+              {
+                "from": {
+                  "key_code": "r",
+                  "modifiers": {
+                    "mandatory": ["option"]
+                  }
+                },
+                "to": [
+                  {
+                    "key_code": "equal_sign"
+                  },
+                  {
+                    "key_code": "period",
+                    "modifiers": ["left_shift"]
                   }
                 ],
                 "type": "basic"
